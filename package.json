@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "My superb Nuxt.js project",
+  "author": "ping4atvr",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "build:framevuerk": "framevuerk-builder -c ./framevuerk-config.js",
+    "prepublish": "yarn build:framevuerk"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "framevuerk": "^2.2.5"
+  },
+  "devDependencies": {
+    "framevuerk-builder": "^2.0.2"
+  }
+}
